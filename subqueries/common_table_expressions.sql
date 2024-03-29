@@ -24,8 +24,7 @@ select
 	sum(amount) as total
 from payment
 group by month
-)
-
+) -- note that spacing matters in sql executor
 select
 	curr.month,
 	curr.total as "income",
